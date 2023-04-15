@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Metadatos -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Luis David Peralta Gonzalez">
+	    <meta name="description" content="Alura Challenges ONE: Encriptador de texto">
+	    <meta name="keywords" content="Encriptador, Desencriptador, Alura, ONE">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- Titulo y Favicon -->
+		<title>Alura: Encriptador</title>
+		<link rel="icon" type="image/x-icon" href="alura.png">
+		<!-- Css -->
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Encabezado -->
+		<header >
+			<img src="alura.png" alt="logo_alura">
+			<h1>Alura Challenge ONE: Encriptador de texto</h1>
+		</header>
+		<!-- Contenedor -->
+		<div class="conteiner">
+			<div class="box1" id="izq">
+				<textarea id="txt_area1" placeholder="Ingresa el texto aqui"></textarea>
+				<div class="nota"><i>Solo minusculas, sin acentos o caracteres especiales</i></div>
+				<button class="btn" id="encriptar">Encriptar</button>
+				<button class="btn" id="desencriptar">Desencriptar</button>
+			</div>
+			<div class="box2" id="der">
+				<textarea id="txt_area2" readonly></textarea>
+				<div id="mensaje">
+					<img src="img\lupa.png">
+					<p>Ningún mensaje fue encontrado</p>					
+				</div>
+				<button class="btn" id="copiar">Copiar</button> 
+			</div>
+		</div>
+		<!-- Pie de pagina -->
+	    <footer class="pie_pagina">
+	    	
+            <div class="social-icons-container">
+            	<a class="icon" href="https://github.com/DavidWM05" target="_blank" rel="noopener noreferrer"></a>
+            	<a class="icon" href="https://www.linkedin.com/in/ldpg-wm97/" target="_blank" rel="noopener noreferrer"></a>
+            	<a class="icon" href="mailto:luis.david080997@gmail.com" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+	        
+	        <div class="autor-container">
+	        	<span class="autor">Luis David Peralta Gonzalez (2023) &#169;</span>
+	        </div>
+	        
+	    </footer>
+
+		<!-- Script -->
+		<script src="script.js"></script>
+	</body>
+</html>
