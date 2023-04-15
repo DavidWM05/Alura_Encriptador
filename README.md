@@ -37,6 +37,6 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 ## Vista de la pagina
 
-(https://github.com/DavidWM05/Alura_Encriptador/blob/main/img/Vista_encriptador.png)
+[](https://github.com/DavidWM05/Alura_Encriptador/blob/main/img/Vista_encriptador.png)
 
 ### Nota: la pagina web aun no es responsiva aun.
