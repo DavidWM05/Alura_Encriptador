@@ -139,17 +139,17 @@ p{
 	height: 50px;
 	width: 50px;
 	border-radius: 50px;
-	background-image: url("img/github.png");
+	background-image: url("./img/github.png");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 1rem;
 }
 .icon:nth-of-type(2){
-	background-image: url("img/linkedin.png");
+	background-image: url("./img/linkedin.png");
 }
 .icon:nth-of-type(3){
-	background-image: url("img/gmail.png");
+	background-image: url("./img/gmail.png");
 }
 .autor{
 	background: none;
