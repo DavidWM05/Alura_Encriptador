@@ -4,7 +4,7 @@
     background: whitesmoke;
 }
 header{
-	padding: 5px 5px 5px 5px;
+	padding: 15px 5px 5px 15px;
 	display: flex;
     align-items: center;
     margin-bottom: 2px;
@@ -12,8 +12,8 @@ header{
 header img{
 	width: 10vh;
 	height: 10vh;
-	padding-right: 10%;
-	padding-left: 5%
+	padding-right: 15px;
+	margin-left: 10;
 }
 textarea{
 	width: 90%;
@@ -24,32 +24,7 @@ textarea{
 }
 
 /* Contenedor */
-.conteiner {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    
-	margin-left: auto;
-    margin-right: auto;
 
-	position: relative;
-	height: 600px;
-	width: 95%;
-}
-
-.box1 {
-	width: 65%;
-	height: 100%;
-	float: left;
-}
-
-.box2 {
-	width: 30%;
-	height: 100%;
-	float: right;
-}
-
-/* Div de resultados*/
 #mensaje{
 	width: 90%;
     height: 85%;
@@ -74,70 +49,59 @@ p{
 	font-size: 15px;
 	background-color: white;
 }
-.nota{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 /* TextArea	*/
-#txt_area1{
-	height: 75%;
+
+.col{
+	min-height: 70vh;
+}
+
+#txt_area1{	
 	border: none;
+	resize: none;
+	height: 80%;
+	width: 100%;	
 }
 #txt_area1:focus{
 	outline: none;
 }
 #txt_area2{
-	height: 85%;
+	height: 80%;
 	background-color: white;
 	border-radius: 10px;
 	border: none;
 	display: none;
+	resize: none;
 }
 #txt_area2:focus{
 	outline: none;
 }
 
 /* Botones */
-.btn{
-	
-	background-color: silver;
-	height: 50px;
-	width: 150px;
-	border-radius: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 20px;
-	transition: all 0.5s ease;
-}
 #copiar{
 	display: none;
 	bottom: 0;
 	transform: translateX(50%);
 }
-.btn:hover {
-	background-color: rgba(0, 0, 0, 0.7);
-	color: white;
-}
+
 
 /* Footer */
-.pie_pagina{
+.pie_pagina{	
 	width: 100%;
 	background-color: rgb(42,122,228);
 	border-radius: 10px;	
 }
 
-.social-icons-container, .autor-container{
+.social-icons-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-	margin-bottom: 1rem;
+	flex-wrap: wrap;	
 	background: none;
 }
 .icon{
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
 	border-radius: 50px;
 	background-image: url("./img/github.png");
 	background-position: center;
@@ -154,6 +118,6 @@ p{
 .autor{
 	background: none;
 	color: white;
-	font-size: 25px;
+	font-size: 15px;
 	padding: 5px;
 }
