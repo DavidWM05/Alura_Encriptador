@@ -38,5 +38,3 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 ## Vista de la pagina
 
 ![vista general](/img/Vista_encriptador.png)
-
-### Nota: la pagina web aun no es responsiva.
